@@ -31,20 +31,10 @@ tr:nth-child(odd) {
   background-color: rgb(255, 255, 255);
 }
 
-/* .responsive {
-  overflow-x: auto;
-  min-width: 600px;
-  background-color: red;
-} */
-
 .table-container {
   width: 100% !important;
   overflow-x: scroll;
   display: flex;
-  /* justify-content: center;
-  align-items: flex-start; */
-  /* align-items: center; */
-  /* justify-content: center; */
   padding: 100px;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
@@ -118,10 +108,6 @@ tr:nth-child(odd) {
 .modal-footer {
   padding-bottom: 2.5rem !important;
 }
-/* 
-.btn {
-  background-color: white;
-} */
 
 .cancel-button {
   background-color: rgb(255, 255, 255);
@@ -137,4 +123,17 @@ tr:nth-child(odd) {
   color: white;
   border: 1px solid rgb(66, 176, 238);
   border-radius: 3px;
+}
+
+@media only screen and (max-width: 900px) {
+  table {
+    min-width: 600px;
+  }
+
+  .table-container {
+    padding: 50px 10px 0px 10px;
+  }
+  .add-candidate {
+    padding: 20px 0px;
+  }
 }
