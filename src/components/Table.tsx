@@ -46,7 +46,7 @@ const Dashboard = () => {
               <tbody>
                 {/* Mapping each row */}
                 {candidates.map((candidate, index) => (
-                  <React.Fragment>
+                  <React.Fragment key={index}>
                     
                     {editRowIndex === index ? (
                       //Row in Edit Mode
