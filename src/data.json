@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "no": 1,
+      "name": "Rajesh",
+      "dob": "25/01/1995",
+      "email": "rajeshKumar@gmail.com",
+      "result": "shortlist",
+      "age": 27,
+      "state": "1",
+      "pincode": "101010"
+    },
+    {
+      "no": 2,
+      "name": "Karan",
+      "dob": "25/03/1998",
+      "email": "karan16@gmail.com",
+      "result": "shortlist",
+      "age": 24,
+      "state": "2",
+      "pincode": "101011"
+    },
+    {
+      "no": 3,
+      "name": "Rahul",
+      "dob": "22/03/1997",
+      "email": "rahul12@gmail.com",
+      "result": "reject",
+      "age": 25,
+      "state": "3",
+      "pincode": "101012"
+    },
+    {
+      "no": 4,
+      "name": "Kartik",
+      "dob": "23/05/1996",
+      "email": "kartik123@gmail.com",
+      "result": "shortlist",
+      "age": 26,
+      "state": "1",
+      "pincode": "101013"
+    },
+    {
+      "no": 5,
+      "name": "Shreya",
+      "dob": "25/03/1999",
+      "email": "shreya12@gmail.com",
+      "result": "shortlist",
+      "age": 23,
+      "state": "2",
+      "pincode": "101014"
+    }
+  ]
+}

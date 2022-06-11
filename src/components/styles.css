@@ -1,0 +1,140 @@
+table {
+  min-width: 800px;
+}
+
+/* th {
+  background-color: red;
+  text-align: center;
+} */
+.tHeader {
+  text-align: start;
+  font-size: 0.75rem;
+  padding: 20px 15px;
+  color: rgb(148, 148, 148);
+}
+.tHeader-result {
+  /* text-align: center; */
+  padding-left: 60px;
+}
+
+td {
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(246, 251, 254);
+}
+
+#trHeader {
+  background-color: rgb(255, 255, 255);
+}
+
+/* .responsive {
+  overflow-x: auto;
+  min-width: 600px;
+  background-color: red;
+} */
+
+.table-container {
+  width: 100% !important;
+  overflow-x: scroll;
+  display: flex;
+  /* justify-content: center;
+  align-items: flex-start; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 100px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.total-number {
+  align-self: flex-start;
+}
+
+.add-candidate {
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0px;
+  font-size: 0.9rem;
+  border: none;
+  align-self: flex-start;
+  color: rgb(86, 184, 240);
+}
+
+/* LOGIN + SIGNUP PAGE */
+
+.authButton {
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  background-color: rgb(66, 176, 238);
+  padding: 10px 35px 10px 35px;
+  color: white;
+  border: 1px solid rgb(66, 176, 238);
+  border-radius: 3px;
+}
+
+.card-container {
+  /* padding-bottom: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem */
+  padding: 1rem 1.5rem 2.5rem 1.5rem;
+  /* border: 1px solid black; */
+  box-shadow: 4px 6px 6px -2px rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-text {
+  text-align: right;
+  margin-right: 0;
+  color: rgb(134, 193, 238) !important;
+}
+
+.select-result {
+  background-color: transparent;
+  border: none;
+  padding-right: 50px;
+}
+
+.title {
+  font-size: 1.125rem !important;
+}
+.modal-header {
+  border-bottom: 0px solid white !important;
+}
+
+.modal-footer {
+  border: 0px solid white !important;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  padding: 1rem 4rem !important;
+}
+.modal-footer {
+  padding-bottom: 2.5rem !important;
+}
+/* 
+.btn {
+  background-color: white;
+} */
+
+.cancel-button {
+  background-color: rgb(255, 255, 255);
+  padding: 5px 15px 5px 15px;
+  color: black;
+  border: 1px solid rgb(66, 176, 238);
+  border-radius: 3px;
+}
+
+.create-button {
+  background-color: rgb(66, 176, 238);
+  padding: 5px 15px 5px 15px;
+  color: white;
+  border: 1px solid rgb(66, 176, 238);
+  border-radius: 3px;
+}
